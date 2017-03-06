@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 
-import { Home } from 'oilib'
+import { Product } from 'oilib'
 
 class App extends Component {
 
   render() {
-	return (
-		<Home content='wrapper'>
-			Home content
-		</Home>
-	);
+	return <Product theme='purple'/>;
   }
 }
 
